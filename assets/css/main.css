@@ -185,7 +185,7 @@
   text-align: center;
   font-size: 16px;
   padding-top: 6px;
-  padding-right: 120px;
+  margin: 0 auto;
   /* padding-bottom: 6px; */
 }
 .ds1 {
@@ -218,9 +218,7 @@ li {
   max-width: 1200px;
   margin: 0 auto;
 }
-.products ul {
-  display: inline;
-}
+
 .products ul .main-product {
   margin-bottom: 2rem;
   margin-right: 1rem;

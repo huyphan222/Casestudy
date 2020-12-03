@@ -1,15 +1,60 @@
+@media only screen and (max-width: 1024px) {
+  .products ul .main-product {
+    width: 18%;
+  }
+
+  .content-product .content-product-deltals .price .money {
+    font-size: 1.5rem;
+  }
+
+  .content-product .content-product-deltals {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  .wrapper {
+    padding: 1.5rem;
+  }
+  .img-nav img {
+    vertical-align: middle;
+    width: 100%;
+  }
+  nav .content-nav ul li a {
+    font-size: 12px;
+    padding: 0px 8px;
+  }
+  nav .content-nav {
+    width: 100%;
+  }
+
+  .products ul .main-product {
+    width: 31%;
+  }
+  .main-product .content-product .content-product-deltals .price {
+    font-size: 18px;
+  }
+  .products ul .no-margin {
+    margin-right: 1rem;
+  }
+
+  .products ul .main-product {
+    width: 35%;
+  }
+}
+
 @media only screen and (min-width: 240px) and (max-width: 480px) {
   /* nav */
-  nav .content-nav {
-    display: none;
+  .container {
+    padding: 0;
   }
   nav {
-    position: fixed !important;
-    top: 0px;
-    left: 0;
     width: 100%;
     display: flex;
-    padding: 0;
+  }
+  .header__navbar-item--strong {
+    display: none;
   }
   .nav-mobile {
     display: flex;
@@ -39,61 +84,31 @@
   .products ul .main-product {
     width: 100%;
   }
-  /* modal */
-  .modal-content {
-    width: 95%;
+
+  .ds {
+    display: none;
   }
-  .cart-item-title {
-    font-size: 0.6em;
+  .header__search-input {
+    width: 180px;
   }
-  .cart-column {
-    margin-right: 0.5em;
+  .app__container .grid {
+    display: none;
   }
-  .cart-price {
-    margin-right: 1rem;
+  .products ul .img-product img {
+    margin: 0;
   }
-  #cart {
-    margin: 0.5rem;
-    padding: 3px;
+  .header__cart {
+    display: none;
+  }
+  .header__search {
+    flex: 0;
+  }
+
+  .header-with-search {
+    justify-content: space-around;
+  }
+  .header__logo {
+    width: auto;
   }
 }
 /*tablet*/
-@media (min-width: 480px) and (max-width: 768px) {
-  .wrapper {
-    padding: 1.5rem;
-  }
-  .img-nav img {
-    vertical-align: middle;
-    width: 100%;
-  }
-  nav .content-nav ul li a {
-    font-size: 12px;
-    padding: 0px 8px;
-  }
-  nav .content-nav {
-    width: 100%;
-  }
-  #cart {
-    font-size: 12px;
-    margin-left: 0.3rem;
-    padding: 0;
-  }
-  .products ul .main-product {
-    width: 31%;
-  }
-  .main-product .content-product .content-product-deltals .price {
-    font-size: 18px;
-  }
-  .products ul .no-margin {
-    margin-right: 1rem;
-  }
-  .cart-item-title {
-    font-size: 0.5em;
-  }
-  .cart-column {
-    margin-right: 0.5em;
-  }
-  .cart-price {
-    margin-right: 1rem;
-  }
-}
